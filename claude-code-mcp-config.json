@@ -1,0 +1,32 @@
+{
+  "mcpServers": {
+    "sovereign-mind": {
+      "command": "python",
+      "args": ["/path/to/claude-code-gateway/gateway.py"],
+      "env": {
+        "SNOWFLAKE_ACCOUNT": "jga82554.east-us-2.azure",
+        "SNOWFLAKE_USER": "JOHN_CLAUDE",
+        "SNOWFLAKE_PASSWORD": "${SNOWFLAKE_PASSWORD}",
+        "SNOWFLAKE_WAREHOUSE": "SOVEREIGN_MIND_WH",
+        "SNOWFLAKE_DATABASE": "SOVEREIGN_MIND",
+        "SNOWFLAKE_ROLE": "ACCOUNTADMIN",
+        "ASANA_TOKEN": "${ASANA_TOKEN}",
+        "ASANA_WORKSPACE_ID": "373563495855656",
+        "MAKE_API_KEY": "${MAKE_API_KEY}",
+        "MAKE_ORGANIZATION_ID": "5726294",
+        "MAKE_TEAM_ID": "1576120",
+        "GITHUB_TOKEN": "${GITHUB_TOKEN}",
+        "ELEVENLABS_API_KEY": "${ELEVENLABS_API_KEY}",
+        "M365_TENANT_ID": "${M365_TENANT_ID}",
+        "M365_CLIENT_ID": "${M365_CLIENT_ID}",
+        "M365_CLIENT_SECRET": "${M365_CLIENT_SECRET}",
+        "M365_DEFAULT_USER": "john@middlegroundcapital.com",
+        "MAX_RESPONSE_BYTES": "51200",
+        "MAX_ROWS": "100",
+        "MAX_EMAIL_COUNT": "25",
+        "MAX_TASK_COUNT": "50",
+        "MAX_FILE_LIST": "100"
+      }
+    }
+  }
+}
